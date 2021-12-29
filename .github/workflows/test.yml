@@ -1,0 +1,9 @@
+name: "My first GitHub Actions"
+on: [push] 
+jobs:
+    print-hello-world:
+        runs-on: ubuntu-latest
+        steps:
+            -run: echo "this is step 1 running in job 1"
+            -run: echo "Hello-world!!!"
+            -run: echo "this is step 2"
